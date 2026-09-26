@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;}
+
+header {
+    text-align: left;}
+
+    nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: green;
+    font-weight: bold;}
+
+nav a {
+    color: white;}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;}
+
+.service {
+    width: 30%;
+    text-align: center;}
+
+.image-box {
+    height: 250px;
+    border: 2px solid green;}
+
+main {
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;}
+
+footer {
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 14px;}
+
+.service > p {
+    font-weight: bold;}
